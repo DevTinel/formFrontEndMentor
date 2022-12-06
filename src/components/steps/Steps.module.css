@@ -1,0 +1,43 @@
+.container{
+  background: url(../../assets/images/bg-sidebar-desktop.svg) no-repeat ;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px;
+  color: #fff;
+  margin: 20px;
+  font-size: .875rem;
+  font-weight: bold;
+  width: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+
+.containerItem{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  width: max-content;
+}
+.number{
+  border: 1px solid #fff;
+  padding: 13px;
+  border-radius: 60%;
+  font-size: 15px;
+}
+.stepNumber{
+  font-weight: normal;
+  margin-bottom: 5px;
+  color:  hsl(228, 100%, 84%);
+}
+.title{
+  letter-spacing: 1px;
+}
+
+.active{
+  background-color:hsl(206, 94%, 87%);
+  color: hsl(213, 96%, 18%);
+}
+

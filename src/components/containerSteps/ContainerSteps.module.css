@@ -1,0 +1,8 @@
+.containerHome{
+  display: flex;
+  background-color:#fff;
+  width: 900px;
+  gap: 40px;
+  margin: 100px auto;
+  border-radius: 10px;
+}

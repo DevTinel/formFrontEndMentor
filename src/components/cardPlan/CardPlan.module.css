@@ -1,0 +1,36 @@
+.containerCard{
+  display: flex ;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 40px;
+  border: 1px solid  hsl(231, 11%, 63%);
+  width: 130px;
+  padding: 20px;
+  border-radius: 8px;
+  height: 150px;
+  background-color: #fff;
+}
+.containerCard:hover{
+  border: 1px solid  hsl(243, 100%, 62%);
+  cursor: pointer;
+}
+.containerCard:focus{
+  background-color:  hsl(217, 100%, 97%);
+  border: 1px solid  hsl(243, 100%, 62%);
+}
+.containerCard img{
+  width: 40px;
+}
+.descriptionCard{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+b{
+  color:  hsl(213, 96%, 18%);
+  margin-bottom: 5px;
+}
+.descriptionCard span{
+  color: hsl(231, 11%, 63%) ;
+  font-size: 14px;
+}
