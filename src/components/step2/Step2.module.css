@@ -1,6 +1,7 @@
 .containerCards{
   display: flex;
   gap: 15px;
+
 }
 .containerStep2 h1{
   margin-top: 50px;
@@ -28,19 +29,34 @@
   border-radius: 10px;
   cursor: pointer;
 }
-.plan button div{
+.activeMonth{
   background-color: #fff;
   border-radius: 50%;
   width: 10px;
   height: 10px;
   margin-left: 2px;
   align-items: center;
-  
+  transition: .3s ease-in-out;
+
 }
+
+.activeYearly{
+  background-color: #fff;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin-left: 12px;
+  align-items: center;
+  transition: .3s ease-in-out;
+
+}
+
 .active{
   font-weight: bold;
   color:hsl(213, 96%, 18%) ;
 }
-.activePlan{
-  background-color: aqua;
+
+
+span{
+  color:  hsl(213, 96%, 18%);
 }

@@ -4,10 +4,11 @@
   gap: 40px;
   margin-top: 40px;
   border: 1px solid  hsl(231, 11%, 63%);
-  width: 130px;
+  width: 150px;
   padding: 20px;
   border-radius: 8px;
-  height: 150px;
+  height: max-content;
+  transition: .3s ease-in-out;
   background-color: #fff;
 }
 .containerCard:hover{
@@ -25,6 +26,8 @@
   display: flex;
   flex-direction: column;
   text-align: left;
+  transition: .3s ease-in-out;
+
 }
 b{
   color:  hsl(213, 96%, 18%);
@@ -33,4 +36,16 @@ b{
 .descriptionCard span{
   color: hsl(231, 11%, 63%) ;
   font-size: 14px;
+  transition: .2s ease-in-out;
+
+}
+.description{
+  display: block;
+
+  margin-top: 5px;
+}
+.descriptionCard .description{
+  color:  hsl(213, 96%, 18%);
+  font-weight: 500;
+
 }
